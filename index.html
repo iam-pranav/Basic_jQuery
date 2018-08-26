@@ -1,0 +1,131 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Jquery basics</title>
+    <!--Stylesheets-->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+</head>
+
+<body>
+
+    <div class="container">
+
+        <fieldset>
+            <legend><h3>Navbar</h3></legend>
+
+            <div class="navbar">
+                <div class="item">Home</div>
+                <div class="item">About Us</div>
+                <div class="item">Contact</div>
+                <div class="item">Gallary</div>
+                <div class="item">Our Vision</div>
+            </div>
+            <br>
+            <br>
+            <br>
+            <div class="nav-bar">
+                <div class="nav-head">
+                    <a class="nav-brand" href="#">NavBar</a>
+                    <button class="btn-toggle"><span><i class="fa fa-bars fa-2x"></i></span></button>
+                </div>
+                
+                <div class="nav-toggle">
+                    <div class="nav-item"><a href="#">Home</a></div>
+                    <div class="nav-item"><a href="#">About</a></div>
+                    <div class="nav-item">
+                        <a id="drop" href="#">Contact</a><i class="fa fa-caret-down"></i>
+                        <div class="ddl">
+                            <div>Mail Us</div>
+                            <div>Call Us</div>
+                            <div>Write Us</div>
+                        </div>
+                    </div>                    
+                    <div class="nav-item"><a href="#">Disabled</a></div>
+                    <div class="nav-item">
+                        <form>
+                            <input type="text" name="search-box" placeholder="Search">
+                            <button type="submit"><i class="fa fa-search"></i></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+        </fieldset>
+        <fieldset>
+            <legend><h3 class="heading">Accordion using jQuery</h3></legend>
+            <div class="accordion">
+
+            <div class="accordion-item">
+                <div class="accordion-head">
+                    <a href="#">Accordion Item #1</a>
+                </div>
+                <div class="accordion-desc">
+                    <p>
+                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                    </p>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <div class="accordion-head">
+                    <a href="#">Accordion Item #2</a>
+                </div>
+                <div class="accordion-desc">
+                    <p>
+                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                    </p>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <div class="accordion-head">
+                    <a href="#">Accordion Item #3</a>
+                </div>
+                <div class="accordion-desc">
+                    <p>
+                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                    </p>
+                </div>
+            </div>
+        </div>
+        </fieldset>
+
+        <fieldset>
+            <legend><h3>Modal</h3></legend>
+            <div class="model-popup">
+                <button class="modal-btn">Modal PopUp</button>
+            </div>  
+            <div class="popup-content">
+                <div class="modal-content">
+                    <header>Modal Head</header>
+                    <hr style="width: 50vw;">
+                    <p>Hello 
+                        <b>This is Modal using jQuery.</b>
+                        Hope you like it.
+                    </p>
+                    <hr style="width: 50vw;">                    
+                    <button class="close-btn" style="align-self: flex-end;">Close</button>
+                </div>
+            </div>          
+            
+        </fieldset>
+
+
+        
+    </div>
+
+
+
+
+
+
+
+
+    <script src="jquery-3.3.1.min.js"></script>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
